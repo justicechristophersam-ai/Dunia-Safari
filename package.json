@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:netlify": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "echo 'Build completed successfully'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
