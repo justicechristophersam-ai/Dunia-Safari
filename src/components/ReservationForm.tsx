@@ -58,17 +58,17 @@ export const ReservationForm = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Reserve Your AFCON Experience — It only takes 60 seconds
+              Secure your AFCON 2025 travel experience — limited slots available
             </h2>
             <p className="text-lg text-muted-foreground font-inter">
-              Secure your spot with a small deposit. We'll handle the rest!
+              Reserve your Morocco adventure with a small deposit. We'll handle the rest!
             </p>
           </div>
 
           <Card className="card-shadow">
             <CardHeader>
               <CardTitle className="text-center text-xl">
-                Start Your AFCON 2025 Journey
+                Start Your Morocco Travel Journey
               </CardTitle>
             </CardHeader>
             
@@ -134,9 +134,9 @@ export const ReservationForm = () => {
                       <SelectValue placeholder="Select your package" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="bronze">Bronze — Fan Experience</SelectItem>
-                      <SelectItem value="silver">Silver — Fan + Culture</SelectItem>
-                      <SelectItem value="gold">Gold — VIP AFCON Safari</SelectItem>
+                      <SelectItem value="match-explore">Match & Explore</SelectItem>
+                      <SelectItem value="culture-football">Culture & Football</SelectItem>
+                      <SelectItem value="luxury-desert">Luxury Desert Safari</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

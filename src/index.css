@@ -17,19 +17,19 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 213 39% 7%;
 
-    /* AFCON Morocco Brand Colors */
-    --morocco-red: 353 66% 47%;  /* #C1272D */
-    --desert-sand: 35 51% 63%;   /* #D9A066 */
-    --deep-green: 169 88% 26%;   /* #0B7A5E */
-    --neutral-dark: 213 39% 7%;  /* #111827 */
+    /* Dunia Safari Brand Colors */
+    --warm-maroon: 0 46% 33%;    /* #7B2E2E */
+    --desert-beige: 40 63% 68%;  /* #E3B778 */
+    --compass-orange: 30 58% 49%; /* #C77D35 */
+    --light-sand: 40 50% 98%;    /* #FDFBF7 */
 
-    --primary: 353 66% 47%;      /* Morocco Red */
+    --primary: 0 46% 33%;        /* Warm Maroon */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 51% 63%;     /* Desert Sand */
+    --secondary: 40 63% 68%;     /* Desert Beige */
     --secondary-foreground: 213 39% 7%;
 
-    --accent: 169 88% 26%;       /* Deep Green */
+    --accent: 30 58% 49%;        /* Compass Orange */
     --accent-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
@@ -71,10 +71,10 @@ All colors MUST be HSL.
     --popover: 213 39% 7%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 353 66% 47%;      /* Morocco Red */
+    --primary: 0 46% 33%;        /* Warm Maroon */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 51% 63%;     /* Desert Sand */
+    --secondary: 40 63% 68%;     /* Desert Beige */
     --secondary-foreground: 213 39% 7%;
 
     --muted: 217.2 32.6% 17.5%;

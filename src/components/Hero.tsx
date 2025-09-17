@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
-import heroStadium from "@/assets/hero-stadium.jpg";
+import heroMoroccoDesert from "@/assets/hero-morocco-desert.jpg";
 
 export const Hero = () => {
   return (
@@ -9,7 +9,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${heroStadium})`,
+          backgroundImage: `url(${heroMoroccoDesert})`,
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
@@ -19,16 +19,16 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            AFCON 2025 in Morocco — Book the Ultimate Fan + Adventure Package
+            Experience Morocco with Dunia Safari
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 font-inter">
-            Match tickets, flights, hotels & curated Morocco experiences — secure your seat with a 25% deposit.
+            Authentic travels, for less. Explore Morocco's culture, deserts, and the football excitement of AFCON 2025.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button variant="hero" size="lg" asChild className="cta-shadow">
-              <a href="#reservation">Reserve My Spot — 25% Deposit</a>
+              <a href="#reservation">Book Your AFCON Tour Package</a>
             </Button>
             
             <Button variant="ghost" size="lg" className="text-white hover:text-primary" asChild>

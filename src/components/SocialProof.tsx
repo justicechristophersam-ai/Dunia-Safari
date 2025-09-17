@@ -3,26 +3,25 @@ import { Star, Shield, CheckCircle, Award } from "lucide-react";
 export const SocialProof = () => {
   const testimonials = [
     {
-      quote: "Dunia made our AFCON trip seamless — match tickets and Moroccan nights were unforgettable.",
+      quote: "Dunia Safari made our Morocco trip incredible — from the desert safari to the AFCON matches, everything was perfectly organized.",
       author: "Ama",
       location: "Accra"
     },
     {
-      quote: "The cultural tours in between matches were incredible. Morocco exceeded all expectations!",
-      author: "Kwame",
+      quote: "The cultural tours between matches were the highlight. Morocco's hospitality exceeded all expectations!",
+      author: "Kwame", 
       location: "Lagos"
     },
     {
-      quote: "Professional service from start to finish. Already planning our next trip with Dunia Safari.",
+      quote: "Professional travel service from start to finish. The desert experience was unforgettable. Planning our next trip with Dunia Safari.",
       author: "Sarah",
       location: "Nairobi"
     }
   ];
 
   const badges = [
-    { icon: Shield, text: "Secure Payment" },
-    { icon: Award, text: "Trusted Operator" },
-    { icon: CheckCircle, text: "Verified Fan Packages" }
+    { icon: Shield, text: "Trusted Travel Operator" },
+    { icon: CheckCircle, text: "Verified Morocco Packages" }
   ];
 
   return (
@@ -34,7 +33,7 @@ export const SocialProof = () => {
             What Our Travelers Say
           </h2>
           <p className="text-lg text-muted-foreground font-inter">
-            Join thousands of satisfied AFCON fans who chose Dunia Safari
+            Join thousands of satisfied travelers who chose Dunia Safari for Morocco
           </p>
         </div>
 
@@ -62,7 +61,7 @@ export const SocialProof = () => {
             const Icon = badge.icon;
             return (
               <div key={index} className="flex items-center gap-2 text-muted-foreground">
-                <Icon className="w-5 h-5 text-deep-green" />
+                <Icon className="w-5 h-5 text-compass-orange" />
                 <span className="font-medium font-inter">{badge.text}</span>
               </div>
             );

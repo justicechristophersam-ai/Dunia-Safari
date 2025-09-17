@@ -1,46 +1,46 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import bronzeFans from "@/assets/bronze-fans.jpg";
-import silverCulture from "@/assets/silver-culture.jpg";
-import goldSafari from "@/assets/gold-safari.jpg";
+import matchExplore from "@/assets/match-explore-package.jpg";
+import cultureFootball from "@/assets/culture-football-package.jpg";
+import luxuryDesert from "@/assets/luxury-desert-safari.jpg";
 
 export const PackagesSection = () => {
   const packages = [
     {
-      name: "Bronze — Fan Experience",
-      image: bronzeFans,
-      alt: "Fans in Nigeria jerseys cheering at AFCON match",
+      name: "Match & Explore",
+      image: matchExplore,
+      alt: "Stadium interior with football fans and local tour guide",
       features: [
-        "Match ticket (standard seating)",
-        "3–4 nights in comfortable hotel near stadiums",
-        "Match transfers & local fan guide"
+        "Stadium tickets + match transfers",
+        "3–4 nights accommodation near venues",
+        "Local guided city tours & fan experiences"
       ],
-      ctaText: "View Bronze Details",
+      ctaText: "View Match & Explore Details",
       popular: false
     },
     {
-      name: "Silver — Fan + Culture",
-      image: silverCulture,
-      alt: "Moroccan market and food experience",
+      name: "Culture & Football",
+      image: cultureFootball,
+      alt: "Traditional Moroccan market with football fans exploring",
       features: [
-        "Everything in Bronze",
-        "Full-day Moroccan culture tour (Medina + Food)",
-        "Welcome fan kit (jersey + scarf)"
+        "Everything in Match & Explore",
+        "Traditional Moroccan culture immersion (Medina + Food)",
+        "Welcome travel kit (jersey + local souvenirs)"
       ],
-      ctaText: "View Silver Details",
+      ctaText: "View Culture & Football Details",
       popular: true
     },
     {
-      name: "Gold — VIP AFCON Safari",
-      image: goldSafari,
-      alt: "Safari wildlife and luxury lodge accommodation",
+      name: "Luxury Desert Safari",
+      image: luxuryDesert,
+      alt: "Luxury desert camp with elegant tents in Moroccan Sahara",
       features: [
-        "Premium match seating + hospitality",
-        "3-day safari add-on + luxury stays",
-        "Dedicated concierge & small group perks"
+        "Premium match hospitality & VIP seating",
+        "3-day luxury desert safari experience",
+        "Dedicated travel concierge & exclusive perks"
       ],
-      ctaText: "View Gold Details",
+      ctaText: "View Luxury Safari Details",
       popular: false
     }
   ];
@@ -50,10 +50,10 @@ export const PackagesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            AFCON Packages
+            Morocco Travel Packages
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-inter">
-            Choose your perfect AFCON 2025 experience. All packages include match tickets and accommodation.
+            Choose your perfect Morocco travel experience. All packages include AFCON 2025 match access and authentic local experiences.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export const PackagesSection = () => {
                 <ul className="space-y-3">
                   {pkg.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-deep-green mt-0.5 flex-shrink-0" />
+                      <Check className="w-5 h-5 text-compass-orange mt-0.5 flex-shrink-0" />
                       <span className="text-foreground font-inter text-sm">
                         {feature}
                       </span>
