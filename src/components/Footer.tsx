@@ -9,7 +9,7 @@ export const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <img 
-              src={duniaSafariLogo} 
+              src=duniaSafariLogo_png 
               alt="Dunia Safari logo - authentic travels for less" 
               className="h-10 w-auto mb-4 brightness-0 invert"
             />
