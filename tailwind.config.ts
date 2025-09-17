@@ -27,6 +27,7 @@ export default {
         'desert-beige': "hsl(var(--desert-beige))",
         'compass-orange': "hsl(var(--compass-orange))",
         'light-sand': "hsl(var(--light-sand))",
+        'neutral-dark': "hsl(220 13% 18%)",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
